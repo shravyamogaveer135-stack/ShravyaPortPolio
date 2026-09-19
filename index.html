@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shravya | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Shravya.</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+            <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Shravya</span></h1>
+
+            <h2>BCA Student & Web Development Enthusiast</h2>
+
+            <p>
+                I am passionate about technology, web development and
+                cybersecurity. I enjoy learning new technologies and
+                building creative projects.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn second-btn">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div class="profile-circle">S</div>
+            <h3>Computer Applications</h3>
+            <p>Learning • Creating • Growing</p>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+
+            <div class="about-card">
+                <h3>Who Am I?</h3>
+
+                <p>
+                    I am Shravya, a BCA student interested in web development,
+                    programming and cybersecurity. I enjoy creating simple,
+                    useful and attractive digital projects.
+                </p>
+
+                <p>
+                    My goal is to improve my technical skills and gain
+                    practical experience by working on real-world projects.
+                </p>
+            </div>
+
+            <div class="about-info">
+                <div>
+                    <strong>Education</strong>
+                    <p>Bachelor of Computer Applications</p>
+                </div>
+
+                <div>
+                    <strong>Interests</strong>
+                    <p>Web Development • Cybersecurity • Programming</p>
+                </div>
+
+                <div>
+                    <strong>Currently Learning</strong>
+                    <p>HTML • CSS • JavaScript • Python</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <p class="section-subtitle">
+            Some of the projects I have worked on.
+        </p>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-icon">🔐</div>
+
+                <h3>File Encryption Tool</h3>
+
+                <p>
+                    A Python-based application that protects files using
+                    encryption and password-based security.
+                </p>
+
+                <span>Python</span>
+                <span>Cybersecurity</span>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-icon">🌐</div>
+
+                <h3>Personal Profile Website</h3>
+
+                <p>
+                    A responsive personal website created to showcase
+                    profile information, skills and interests.
+                </p>
+
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-icon">💻</div>
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A responsive portfolio website developed using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <div class="progress-bar javascript"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress">
+                    <div class="progress-bar python"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>Git & GitHub</h3>
+                <div class="progress">
+                    <div class="progress-bar github"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p class="section-subtitle">
+            Have a question or want to connect? Send me a message.
+        </p>
+
+        <form id="contactForm">
+
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Write your message"
+                ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Send Message
+            </button>
+
+            <p id="formMessage"></p>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Shravya. All Rights Reserved.</p>
+
+        <p>Built with HTML, CSS & JavaScript</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
